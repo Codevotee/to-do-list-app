@@ -1,9 +1,9 @@
 # to-do-list-app
 A to-do list being made using git, html, css, and jquery
 
-#What I'll use:
+**What I'll use**:
 
-##jQuery:
+*jQuery*:
 
 - .on()
 - .keypress()
@@ -15,7 +15,7 @@ A to-do list being made using git, html, css, and jquery
 - creating elements
 - event delegation
 
-##CSS:
+*CSS*:
 
 - margin
 - padding
@@ -27,6 +27,6 @@ A to-do list being made using git, html, css, and jquery
 - transition
 - gradients
 
-##Git:
+*Git*:
 
 - basic Git commands to apply changes, deploy to github etc.
