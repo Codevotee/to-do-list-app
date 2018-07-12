@@ -1,1 +1,1 @@
-// jquery code goes here
+// javascript + jquery code goes here
