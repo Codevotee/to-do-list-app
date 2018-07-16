@@ -18,10 +18,20 @@ $("ul").on("click", "span", function(event){ // click event listener for spans w
 	// prevents any events firing after the current event (event bubbling) e.g. toggling the "checked" class
 });
 
+// decides what happens when user gives input
+
 $("input[type='text']").keypress(function(event){
 	if(event.which === 13){ // checks if the enter key is pressed
 		var toDoValue = $(this).val(); // grabs the new to-do value from user input
 		// creates a new to-do and adds to the list
 		$("ul").append("<li><span><i class='fa fa-trash' aria-hidden='true'></i></span> " + toDoValue + "</li>"); // adds a new to-do from user's input
+		$(this).val('');
 	}
+});
+
+// toggles the form
+
+$(".fa-times").click(function(){
+	$("input[type='text']").fadeToggle();
+	$(this).toggleClass("fa-times fa-plus");
 });
